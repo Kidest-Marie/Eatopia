@@ -1,5 +1,4 @@
-[
-  {
+
     "name": "Doro Wot",
     "ingredients": ["chicken", "onion", "berbere", "niter kibbeh", "boiled eggs"],
     "recipe": "Cook onions with oil and berbere until soft, add chicken and simmer. Serve with boiled eggs.",
@@ -193,5 +192,184 @@
     "tip": "Great for athletes and high-protein diets.",
     "image": "tibs.jpg",
     "culture": "Often eaten during holidays and special occasions."
+=======
+    "name": "Tikil Gomen",
+    "ingredients": ["cabbage", "carrot", "potato", "onion", "turmeric"],
+    "recipe": "Sauté onion, turmeric, and vegetables in oil until soft.",
+    "nutrition": {
+      "calories": 180,
+      "protein_g": 3,
+      "fat_g": 6,
+      "fiber_g": 4
+    },
+    "category": ["vegan", "digestive"],
+    "tip": "Very easy on the stomach, high in fiber.",
+    "image": "tikil_gomen.jpg",
+    "culture": "Common during fasting seasons in Ethiopian households."
+  },
+  {
+    "name": "Azifa",
+    "ingredients": ["green lentils", "onion", "mustard", "lemon juice"],
+    "recipe": "Cook lentils, cool them, then mix with other ingredients.",
+    "nutrition": {
+      "calories": 220,
+      "protein_g": 12,
+      "fat_g": 4,
+      "fiber_g": 5
+    },
+    "category": ["vegan", "cold dish"],
+    "tip": "Served cold — great protein source for vegans.",
+    "image": "azifa.jpg",
+    "culture": "Often served as a light side dish or fasting meal."
+  },
+  {
+    "name": "Enkulal Firfir",
+    "ingredients": ["eggs", "onion", "tomato", "oil"],
+    "recipe": "Scramble eggs with sautéed onion and tomato.",
+    "nutrition": {
+      "calories": 240,
+      "protein_g": 14,
+      "fat_g": 15,
+      "fiber_g": 1
+    },
+    "category": ["breakfast", "high protein"],
+    "tip": "Quick protein-rich breakfast.",
+    "image": "enkulal_firfir.jpg",
+    "culture": "Common breakfast across all Ethiopian regions."
+  },
+  {
+    "name": "Tihlo",
+    "ingredients": ["barley flour", "spices", "meat sauce"],
+    "recipe": "Roll cooked barley dough into balls, dip in meat sauce.",
+    "nutrition": {
+      "calories": 350,
+      "protein_g": 15,
+      "fat_g": 10,
+      "fiber_g": 5
+    },
+    "category": ["meat", "high energy"],
+    "tip": "Great for athletes and builders.",
+    "image": "tihlo.jpg",
+    "culture": "Originates from Tigray region."
+  },
+  {
+    "name": "Fossolia",
+    "ingredients": ["green beans", "carrots", "onion", "garlic"],
+    "recipe": "Sauté vegetables in oil with garlic and spices.",
+    "nutrition": {
+      "calories": 160,
+      "protein_g": 4,
+      "fat_g": 5,
+      "fiber_g": 4
+    },
+    "category": ["vegan", "vitamin-rich"],
+    "tip": "Good side dish — high in vitamin A and C.",
+    "image": "fossolia.jpg",
+    "culture": "Often cooked during Christian fasting periods."
+  },
+  {
+    "name": "Siljo",
+    "ingredients": ["fava bean flour", "berbere", "garlic", "water", "mustard"],
+    "recipe": "Mix fava bean flour with spices and cook until thick. Often served cold with injera during fasting.",
+    "nutrition": {
+      "calories": 250,
+      "protein_g": 11,
+      "fat_g": 4,
+      "fiber_g": 5
+    },
+    "category": ["vegan", "fasting food"],
+    "tip": "Filling and high in plant protein — ideal for lent and vegan diets.",
+    "image": "siljo.jpg",
+    "culture": "Common Orthodox Christian fasting food served on holidays like Fasika and Meskel."
+  },
+  {
+    "name": "Kitfo",
+    "ingredients": ["minced raw beef", "niter kibbeh", "mitmita"],
+    "recipe": "Mix freshly minced beef with spiced clarified butter and mitmita. Can be served raw (lebleb) or lightly cooked.",
+    "nutrition": {
+      "calories": 450,
+      "protein_g": 35,
+      "fat_g": 30,
+      "fiber_g": 0
+    },
+    "category": ["high protein", "traditional"],
+    "tip": "Excellent source of protein and iron for strength and energy.",
+    "image": "kitfo.jpg",
+    "culture": "A signature Gurage dish often served with kocho and ayib during holidays and special events."
+  },
+  {
+    "name": "Bula",
+    "ingredients": ["enset (false banana starch)", "water"],
+    "recipe": "Stir enset starch with hot water over low heat until it thickens into porridge. Serve warm with niter kibbeh and berbere.",
+    "nutrition": {
+      "calories": 180,
+      "protein_g": 2,
+      "fat_g": 0,
+      "fiber_g": 2
+    },
+    "category": ["vegan", "gluten-free"],
+    "tip": "Energizing and good for digestion — often eaten for stamina.",
+    "image": "bula.jpg",
+    "culture": "Traditional food of southern Ethiopia, including Sidama and Wolaita communities."
+  },
+  {"name": "Dulet",
+    "ingredients": ["beef tripe", "minced liver", "onion", "spices", "chili"],
+    "recipe": "Finely chop and fry beef organs with onion, garlic, chili, and spices until flavorful.",
+    "nutrition": {
+      "calories": 380,
+      "protein_g": 22,
+      "fat_g": 30,
+      "fiber_g": 0
+    },
+    "category": ["traditional", "protein-rich"],
+    "tip": "Packed with vitamins and nutrients from organ meats.",
+    "image": "dulet.jpg",
+    "culture": "Often eaten with injera; popular among meat lovers and served at gatherings."
+  },
+  {
+    "name": "Suf",
+    "ingredients": ["sunflower seeds"],
+    "recipe": "Eaten roasted or raw; also ground for oil or flour.",
+    "nutrition": {
+      "calories": 160,
+      "protein_g": 6,
+      "fat_g": 14,
+      "fiber_g": 2
+    },
+    "category": ["healthy fat", "snack"],
+    "tip": "High in healthy fats and vitamin E — great for skin and heart.",
+    "image": "suf.jpg",
+    "culture": "Popular as a snack during holidays and coffee ceremonies."
+  },
+  {
+    "name": "Difo Dabo",
+    "ingredients": ["wheat flour", "yeast", "spices", "fenugreek", "sugar"],
+    "recipe": "Mix and knead dough with yeast and spices. Wrap in leaves and bake until golden.",
+    "nutrition": {
+      "calories": 320,
+      "protein_g": 7,
+      "fat_g": 2,
+      "fiber_g": 3
+    },
+    "category": ["bread", "holiday food"],
+    "tip": "Slow-digesting energy-rich bread — perfect for special occasions.",
+    "image": "difo_dabo.jpg",
+    "culture": "Prepared for Meskel, weddings, and Sunday church meals."
+  },
+  {
+    "name": "Beso Chibto",
+    "ingredients": ["roasted barley flour", "niter kibbeh", "sugar", "water or milk"],
+    "recipe": "Mix roasted barley flour with melted niter kibbeh and sweetener. Serve warm or room temp.",
+    "nutrition": {
+      "calories": 300,
+      "protein_g": 6,
+      "fat_g": 12,
+      "fiber_g": 4
+    },
+    "category": ["snack", "high energy"],
+    "tip": "Great for quick energy during travel or fasting.",
+    "image": "beso_chibto.jpg",
+    "culture": "Popular among Oromo and Amhara communities — often eaten by students or travels
+    main
   }
 ]
