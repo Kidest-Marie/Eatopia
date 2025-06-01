@@ -1,5 +1,198 @@
-[
+
+    "name": "Doro Wot",
+    "ingredients": ["chicken", "onion", "berbere", "niter kibbeh", "boiled eggs"],
+    "recipe": "Cook onions with oil and berbere until soft, add chicken and simmer. Serve with boiled eggs.",
+    "nutrition": {
+      "calories": 400,
+      "protein_g": 30,
+      "fat_g": 20,
+      "fiber_g": 2
+    },
+    "category": ["high protein", "traditional"],
+    "tip": "High in protein — good for muscle building.",
+    "image": "doro_wot.jpg",
+    "culture": "Doro Wot is a holiday and wedding dish across Ethiopia."
+  },
   {
+    "name": "Shiro Wot",
+    "ingredients": ["chickpea flour", "onion", "berbere", "oil", "garlic"],
+    "recipe": "Cook onion, garlic, and berbere in oil. Add water and shiro flour until thickened.",
+    "nutrition": {
+      "calories": 250,
+      "protein_g": 10,
+      "fat_g": 8,
+      "fiber_g": 5
+    },
+    "category": ["vegan", "high fiber", "low fat"],
+    "tip": "Perfect for vegans and high in fiber.",
+    "image": "shiro.jpg",
+    "culture": "A daily staple in many Ethiopian homes, especially during fasting."
+  },
+  {
+    "name": "Genfo",
+    "ingredients": ["barley flour", "water", "niter kibbeh", "berbere"],
+    "recipe": "Cook barley flour in boiling water until thick. Serve with niter kibbeh and berbere center.",
+    "nutrition": {
+      "calories": 220,
+      "protein_g": 5,
+      "fat_g": 7,
+      "fiber_g": 3
+    },
+    "category": ["breakfast", "high fiber"],
+    "tip": "Traditional breakfast that gives long-lasting energy.",
+    "image": "genfo.jpg",
+    "culture": "Popular during cold mornings in highland Ethiopia."
+  },
+  {
+    "name": "Firfir",
+    "ingredients": ["injera", "berbere", "oil", "onion"],
+    "recipe": "Tear injera into small pieces and mix with spiced oil and onion.",
+    "nutrition": {
+      "calories": 280,
+      "protein_g": 7,
+      "fat_g": 12,
+      "fiber_g": 6
+    },
+    "category": ["vegan", "quick meal"],
+    "tip": "A good leftover breakfast full of fiber.",
+    "image": "firfir.jpg",
+    "culture": "Often made with leftover injera; served for breakfast."
+  },
+  {
+    "name": "Atmit",
+    "ingredients": ["oats", "barley", "milk", "sugar"],
+    "recipe": "Cook oats and barley in milk or water. Sweeten with sugar.",
+    "nutrition": {
+      "calories": 300,
+      "protein_g": 8,
+      "fat_g": 5,
+      "fiber_g": 4
+    },
+    "category": ["breakfast", "nourishing"],
+    "tip": "Great for recovery and nursing mothers.",
+    "image": "atmit.jpg",
+    "culture": "Used to nourish new mothers and sick people."
+  },
+  {
+    "name": "Chechebsa",
+    "ingredients": ["flatbread", "berbere", "oil", "butter"],
+    "recipe": "Cut flatbread into pieces, fry in butter, mix with berbere.",
+    "nutrition": {
+      "calories": 350,
+      "protein_g": 9,
+      "fat_g": 18,
+      "fiber_g": 3
+    },
+    "category": ["traditional", "high energy"],
+    "tip": "Popular among students for quick energy.",
+    "image": "chechebsa.jpg",
+    "culture": "Oromo origin, now popular nationwide."
+  },
+  {
+    "name": "Kik Alicha",
+    "ingredients": ["split peas", "onion", "turmeric", "oil"],
+    "recipe": "Boil peas until soft, sauté onion with turmeric, mix together.",
+    "nutrition": {
+      "calories": 260,
+      "protein_g": 11,
+      "fat_g": 7,
+      "fiber_g": 5
+    },
+    "category": ["vegan", "low fat", "digestive"],
+    "tip": "Easy on the stomach — good for light meals.",
+    "image": "kik_alicha.jpg",
+    "culture": "Commonly served during fasting days."
+  },
+  {
+    "name": "Misir Wot",
+    "ingredients": ["lentils", "onion", "berbere", "oil"],
+    "recipe": "Cook lentils until soft. Fry onion and berbere, mix with lentils.",
+    "nutrition": {
+      "calories": 270,
+      "protein_g": 13,
+      "fat_g": 9,
+      "fiber_g": 6
+    },
+    "category": ["vegan", "high protein"],
+    "tip": "Good plant-based protein for vegans.",
+    "image": "misir_wot.jpg",
+    "culture": "Often eaten with injera, especially on fasting days."
+  },
+  {
+    "name": "Ayib",
+    "ingredients": ["milk", "lemon juice"],
+    "recipe": "Boil milk and add lemon juice to separate curds. Strain to make cheese.",
+    "nutrition": {
+      "calories": 150,
+      "protein_g": 14,
+      "fat_g": 5,
+      "fiber_g": 0
+    },
+    "category": ["high protein", "digestive"],
+    "tip": "Low in fat — balances spicy food.",
+    "image": "ayib.jpg",
+    "culture": "Often served with spicy wot to reduce heat."
+  },
+  {
+    "name": "Gomen",
+    "ingredients": ["collard greens", "onion", "garlic", "oil"],
+    "recipe": "Cook chopped greens with garlic, onion, and oil.",
+    "nutrition": {
+      "calories": 120,
+      "protein_g": 5,
+      "fat_g": 6,
+      "fiber_g": 4
+    },
+    "category": ["vegan", "high fiber", "vitamin-rich"],
+    "tip": "Full of vitamins and fiber.",
+    "image": "gomen.jpg",
+    "culture": "A healthy green side dish eaten with many meals."
+  },
+  {
+    "name": "Kinch",
+    "ingredients": ["bulgur wheat", "niter kibbeh", "salt"],
+    "recipe": "Boil bulgur, mix with melted niter kibbeh and salt.",
+    "nutrition": {
+      "calories": 200,
+      "protein_g": 6,
+      "fat_g": 8,
+      "fiber_g": 4
+    },
+    "category": ["simple", "fiber-rich"],
+    "tip": "A simple and filling breakfast or side dish.",
+    "image": "kinche.jpg",
+    "culture": "Minimalist food for both poor and wealthy homes."
+  },
+  {
+    "name": "Beyaynetu",
+    "ingredients": ["injera", "variety of vegan stews"],
+    "recipe": "Serve small portions of various vegan wots over injera.",
+    "nutrition": {
+      "calories": 500,
+      "protein_g": 18,
+      "fat_g": 15,
+      "fiber_g": 9
+    },
+    "category": ["vegan", "mixed meal"],
+    "tip": "Colorful, balanced, and filling.",
+    "image": "beyaynetu.jpg",
+    "culture": "Typical fasting meal on Wednesdays and Fridays."
+  },
+  {
+    "name": "Tibs",
+    "ingredients": ["beef", "onion", "spices", "oil"],
+    "recipe": "Fry beef with onions and spices. Serve hot.",
+    "nutrition": {
+      "calories": 430,
+      "protein_g": 35,
+      "fat_g": 20,
+      "fiber_g": 1
+    },
+    "category": ["high protein", "low carb"],
+    "tip": "Great for athletes and high-protein diets.",
+    "image": "tibs.jpg",
+    "culture": "Often eaten during holidays and special occasions."
+=======
     "name": "Tikil Gomen",
     "ingredients": ["cabbage", "carrot", "potato", "onion", "turmeric"],
     "recipe": "Sauté onion, turmeric, and vegetables in oil until soft.",
@@ -176,6 +369,7 @@
     "category": ["snack", "high energy"],
     "tip": "Great for quick energy during travel or fasting.",
     "image": "beso_chibto.jpg",
-    "culture": "Popular among Oromo and Amhara communities — often eaten by students or travelers."
+    "culture": "Popular among Oromo and Amhara communities — often eaten by students or travels
+    main
   }
 ]
