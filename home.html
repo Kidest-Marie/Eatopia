@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <h2>Search for Food</h2>
+    <form action="/search" method="post">
+        <input type="text" name="query" placeholder="e.g., lentils, Doro Wot, low fat">
+        <select name="filter_type">
+            <option value="name">By Name</option>
+            <option value="ingredient">By Ingredient</option>
+            <option value="nutrition">By Nutrition</option>
+        </select>
+        <button type="submit">Search</button>
+    </form>
+
+    {% if results %}
+        <h3>Results:</h3>
+        <ul>
+            {% for food in results %}
+                <li>
+                    <strong>{{ food.name }}</strong><br>
+                    Ingredients: {{ food.ingredients | join(', ') }}<br>
+                    Nutrition: Protein {{ food.nutrition.protein }}g,
+                    Fat {{ food.nutrition.fat }}g,
+                    {{ food.nutrition.calories }} cal
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}
