@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+    <h2>Welcome, {{ username }}!</h2>
+
+    <h3>Log a Meal</h3>
+    <form action="/log" method="post">
+        <input type="text" name="food_name" placeholder="Food name" required>
+        <button type="submit">Log Meal</button>
+    </form>
+
+    <h3>Your Meals</h3>
+    {% if meals %}
+        <ul>
+        {% for date, foods in meals.items() %}
+            <li><strong>{{ date }}:</strong> {{ foods | join(', ') }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No meals logged yet.</p>
+    {% endif %}
+
+    <h3>Share Your Meals</h3>
+    <form action="/share" method="post">
+        <button type="submit">Generate Share Link</button>
+    </form>
+
+    <form action="/logout" method="post" style="margin-top: 20px;">
+        <button type="submit">Logout</button>
+    </form>
+{% endblock %}
